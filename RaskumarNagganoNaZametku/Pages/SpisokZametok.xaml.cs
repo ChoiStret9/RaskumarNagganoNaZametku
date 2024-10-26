@@ -13,19 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RaskumarNagganoNaZametku
+namespace RaskumarNagganoNaZametku.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для SpisokZametok.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SpisokZametok : Page
     {
-        public MainWindow()
+        public SpisokZametok()
         {
             InitializeComponent();
         }
 
-        private void zapiskiFrame_ContentRendered(object sender, EventArgs e)
+        private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
 
         }

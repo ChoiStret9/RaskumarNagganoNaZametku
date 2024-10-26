@@ -13,5 +13,6 @@ namespace RaskumarNagganoNaZametku
     /// </summary>
     public partial class App : Application
     {
+        public static Entities.zametkiEntities Context { get; set; } = new Entities.zametkiEntities();
     }
 }

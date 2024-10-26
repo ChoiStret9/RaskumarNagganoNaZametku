@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RaskumarNagganoNaZametku
+namespace RaskumarNagganoNaZametku.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AddEditZametki.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddEditZametki : Page
     {
-        public MainWindow()
+        public AddEditZametki()
         {
             InitializeComponent();
-        }
-
-        private void zapiskiFrame_ContentRendered(object sender, EventArgs e)
-        {
-
         }
     }
 }
